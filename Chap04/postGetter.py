@@ -18,15 +18,15 @@ import requests
 
 token = 'PUT TOKEN HERE'
 
-who = 'ALAMANCEOURS'
+who = 'PUT FACEBOOK PAGENAME HERE'
 urlstem = 'https://www.facebook.com/' + who + '/posts/'
 fname = 'posts_' + who + ".jsonl"
-
+howMany = 1000
 
 def get_parser():
     parser = ArgumentParser()
     parser.add_argument('--page')
-    parser.add_argument('--n', default=1000, type=int)
+    parser.add_argument('--n', default=howMany, type=int)
     return parser
 
 
