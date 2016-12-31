@@ -16,6 +16,7 @@ from argparse import ArgumentParser
 import facebook
 import requests
 
+# get token from https://developers.facebook.com/tools/access_token/
 token = 'PUT TOKEN HERE'
 
 who = 'PUT FACEBOOK PAGENAME HERE'
